@@ -48,6 +48,36 @@
         .legal-text{
             margin-right: 20px;
         }
+
+        /* Styling the checkbox input */
+        #checkbox{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            appearance: none;
+            -webkit-appearance : none;
+            -moz-appearance : none;
+            -o-appearance : none;
+            width: 80px;
+            height: 40px;
+            background: black;
+            border-radius: 22px;
+            cursor: pointer;
+            outline: none;
+        }
+        /* styling the circle inside the checkbox input */
+        #checkbox::before{
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 35px;
+            background-color:white;
+            border-radius: 35px;
+            top: 2px;
+            left: 2px;
+            cursor: pointer;
+            transition: .3s linear;
+        }
     </style>
 </head>
 
