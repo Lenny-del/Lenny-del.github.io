@@ -6,59 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Error - Page Not Found</title>
     <style>
-       /* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            align-items: center;
+        }
+        
+        h1 {
+            font-size: 150px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            color: #7289DA;
+            user-select: none; /* Standard */
+        }
+        
+        h3 {
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;
+            color: #9d9191;
+            user-select: none; /* Standard */
 
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
+        }
+        
+        p {
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 50px;
+            color: #9d9191;
+            user-select: none; /* Standard */
+            text-align: center;
 
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+        }
+        
+        button {
+            padding: 15px 30px;
+            background-color: #7289DA;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 20px;
+            border: 0;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+        button:hover{
+            color: #a49292;
+  
+        }
     </style>
 </head>
 
-<body>
-  <div class="container">
-    <img src="assets/unknown.png" alt="Lego" style="width:100%;">
-    <div class="bottom-left">Bottom Left</div>
-    <div class="top-left">Top Left</div>
-    <div class="top-right">Top Right</div>
-    <div class="bottom-right">Bottom Right</div>
-    <div class="centered">Centered</div>
-  </div>
-</body>
-</html>
+<body data-new-gr-c-s-check-loaded="14.1007.0" data-gr-ext-installed="">
+    <div class="container">
+      <img src="assets/unknown.png" alt="Italian Trulli">
+        <h3>404 - PAGE NOT FOUND</h3>
+        <p>The page you are looking for might be removed or temporarily unavailable</p>
+        <button>GOTO HOMEPAGE</button>
+    </div>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
